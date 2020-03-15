@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Window caption="0,0,0,384" size="800,2000" mininfo="800,2000" sizebox="6,6,6,6" layered="true" textrenderinghint="0" showshadow="true" shadowimage="main/shadow.png" shadowsize="6" shadowcorner="8,8,8,8">
+  <Font id ="1" name="微软雅黑" size="45" hold="true" />
+  <Font id ="2" name="微软雅黑" size="22" default="true"/>
+  <VerticalLayout name="root" bkcolor="#eeeeeee">
+    <Label name="word" font="1" text=" location" textcolor="#E9967A" />
+    <Label name="spell" font="2" text=" 英[ləʊˈkeɪʃn] 美[loʊˈkeɪʃn]" textcolor="#E9967A" />
+    <Text name="mean" font="2" text=" n.地方;地点;位置;(电影的)外景拍摄地;定位" textcolor="#E9967A"/>
+    <Text name="phrase" font="2" text=" location parameter  [数] 位置参数;位置參數;位置母数\n storage location  [计] 存储单元;存储位置;库存地点\n Location Service  定位服务;位置服务;地理位置服务" textcolor="#E9967A"/>
+    <Text name="example" font="2" text=" Pop some smoke and let me see your location.\n 放烟幕弹，让我找找你们的位置。" textcolor="#E9967A"/>
+  </VerticalLayout>
+</Window>
